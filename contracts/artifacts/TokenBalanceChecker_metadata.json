@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "tokenAddresses",
+						"type": "address[]"
+					}
+				],
+				"name": "getBalances",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "tokenAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "balance",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct TokenBalanceChecker.TokenBalance[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/balances.sol": "TokenBalanceChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/balances.sol": {
+			"keccak256": "0x738d696defe9f7559c13ca744022957da894ff05f2494f3fa928aa048c62be26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80d7f729913f5b655dcd6b215d0e87c4d90d7af16c8c2f938d74d07d42bdbaa8",
+				"dweb:/ipfs/QmS6j1Exgbfzjx3qNfzfdzY8Yspyxpv2o3DPGwh8wD34yF"
+			]
+		}
+	},
+	"version": 1
+}
