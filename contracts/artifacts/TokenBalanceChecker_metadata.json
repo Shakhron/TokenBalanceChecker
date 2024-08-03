@@ -23,19 +23,31 @@
 					{
 						"components": [
 							{
-								"internalType": "address",
-								"name": "tokenAddress",
-								"type": "address"
+								"internalType": "uint256",
+								"name": "nativeBalance",
+								"type": "uint256"
 							},
 							{
-								"internalType": "uint256",
-								"name": "balance",
-								"type": "uint256"
+								"components": [
+									{
+										"internalType": "address",
+										"name": "tokenAddress",
+										"type": "address"
+									},
+									{
+										"internalType": "uint256",
+										"name": "balance",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct TokenBalanceChecker.TokenBalance[]",
+								"name": "tokenBalances",
+								"type": "tuple[]"
 							}
 						],
-						"internalType": "struct TokenBalanceChecker.TokenBalance[]",
+						"internalType": "struct TokenBalanceChecker.UserBalances",
 						"name": "",
-						"type": "tuple[]"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -70,11 +82,11 @@
 	},
 	"sources": {
 		"contracts/balances.sol": {
-			"keccak256": "0x738d696defe9f7559c13ca744022957da894ff05f2494f3fa928aa048c62be26",
+			"keccak256": "0xf4c7775fe6f4997b900ca4a91670c3e5f87ee5907d1e929e49dc1824d528ebdb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://80d7f729913f5b655dcd6b215d0e87c4d90d7af16c8c2f938d74d07d42bdbaa8",
-				"dweb:/ipfs/QmS6j1Exgbfzjx3qNfzfdzY8Yspyxpv2o3DPGwh8wD34yF"
+				"bzz-raw://994b85ed423adff919d9da1f7c42b6f5121239ad5d579d16d446af5b96a013ab",
+				"dweb:/ipfs/QmQCYyBFUvWa84XnGzbspkRGy72iWsYyvoNzUEb6KdVHCr"
 			]
 		}
 	},
