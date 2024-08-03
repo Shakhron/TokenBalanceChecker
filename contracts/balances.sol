@@ -41,4 +41,3 @@ contract TokenBalanceChecker {
         return userBalances;
     }
 }
-//0xFfa5d9e18ac4c3DbA363e3c613aAA507911b357d,[0x47034B3c18f17dd89CE1d7F87B9A90235158E4CC,0x54E8d3c6Bfa55F809d5687AAB4d1Eb00f13394B4]
